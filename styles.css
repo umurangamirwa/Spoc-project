@@ -1,0 +1,104 @@
+ /* This style help your project to be shown on different screen unless laptop maybe like phones also */
+ @media only screen and("max-width:400px"){
+body{
+ margin : 0;
+ width :70% ; 
+   }
+ }
+/* this tyle change all element that you want to be changed in container for exampe here i want to change a background color of container,fex used to expands items to fill available free space, or shrinks them to prevent overflow.and to justify-content center to make paragraph on center   */
+.container{
+ 
+ background-color :chocolate;
+ 
+ display : flex;
+ justify-content : center;
+}
+/*this h2 is in container so I would like to set the margin area on the left side of an element */
+h2{
+margin-left:50px;
+ color:blue;
+}
+/* here I want in container to change margin on left side and to justify a single p element that why I add p on container.The margin-left CSS property sets the margin area on the left side of an element. */
+.container p{
+margin-left:50px;
+text-align: justify;
+}
+/*nav which help me me to move on another pager(home,contacts,services,back)*/
+nav{
+padding : 0.1% 0;
+ margin-right : 0;
+}
+/*this means unordered list help the program when you want to give the list of something numerical this Ul located in vavigation*/
+nav>ul{
+text-align :right;
+}
+/*here i want to give the list:size,color,inline-block means when you want the line comes vertically and none means I don't want to underline*/
+ ul>li a{
+   display : inline-block;
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+ }
+ /*I used top so that u can click on it and it directs you up directly*/
+#top{
+   padding:50px;
+
+   background-image:url('http://www.exinteriordesign.com/wp-content/uploads/2018/03/Luxury-Homes.jpg');
+   background-size : cover;
+ }
+ /*this is styling headings(h3,h1)*/
+ h3{
+  margin-left:50px; 
+ }
+ h1{
+  margin-left:50px;
+  font-variant:small-caps;
+  	text-align: center;
+  	background-color:green;
+  	font-size:40px;
+ }
+ a{
+ 	font-size:30px;
+ 	font-style: italic;
+ }
+ #contacts{
+ 	text-align: center;
+ }
+ /*this for is to give footer background-color,border*/
+ footer{
+ 	background-color: powderblue; 
+ 	border: 5px solid black;
+
+ }
+ /*to style */
+#home,#activities{
+ 	margin: 150px;
+ 	margin-top: 0px;
+ }
+ /*this used to make or to style strong like title which is in strong in color black*/
+ strong{
+   color:black;
+ }
+ /*I want here to style the div of advice*/
+ #advice{
+ column-count:3;  
+ text-align:justify;
+ margin:20px;
+ }
+ /*I would like to style div campony*/
+ #company {
+  font-variant:small-caps; 
+ }
+ /*give ul;h2,p;li the size*/
+ ul{
+   font-size:20px;
+ }
+ h2,p{
+   font-size:20px;
+}
+li{
+    font-size:20px; 
+}
+
+
+
